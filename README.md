@@ -13,7 +13,7 @@ status color; click it to see the whole team's live statuses and change yours.
 Paste in Terminal (asks for your Mac password):
 
 ```bash
-curl -fsSL https://github.com/OWNER/busy-tabs/releases/latest/download/BusyTabs.pkg -o /tmp/BusyTabs.pkg \
+curl -fsSL https://github.com/CyberDogsDev/busy-tabs/releases/latest/download/BusyTabs.pkg -o /tmp/BusyTabs.pkg \
   && sudo installer -pkg /tmp/BusyTabs.pkg -target / \
   && open "/Applications/Busy Tabs.app"
 ```
