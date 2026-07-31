@@ -2,8 +2,8 @@ import Foundation
 
 enum Config {
     // Baked-in team key. Env vars override for local development.
-    private static let defaultURL = "https://YOUR-PROJECT.supabase.co"
-    private static let defaultAnonKey = "YOUR-ANON-KEY"
+    private static let defaultURL = "https://mibhuhczpeqeecukwokc.supabase.co"
+    private static let defaultAnonKey = "sb_publishable_Gtu3zLmcT6kI-9yxkO9FkQ_kw6ht0F4"
 
     static let supabaseURL = URL(
         string: ProcessInfo.processInfo.environment["BUSYTABS_SUPABASE_URL"] ?? defaultURL
