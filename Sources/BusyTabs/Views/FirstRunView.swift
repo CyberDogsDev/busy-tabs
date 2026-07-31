@@ -14,7 +14,13 @@ struct FirstRunView: View {
                 .font(.system(size: 12))
                 .foregroundStyle(Brand.cloud.opacity(0.7))
             TextField("Your name", text: $name)
-                .textFieldStyle(.roundedBorder)
+                .textFieldStyle(.plain)
+                .font(.system(size: 13))
+                .foregroundStyle(.white)
+                .tint(Brand.viceCyan)
+                .padding(.horizontal, 8)
+                .padding(.vertical, 6)
+                .background(RoundedRectangle(cornerRadius: 6).fill(Brand.slate))
                 .onSubmit { join() }
             Button(action: join) {
                 if joining {
